@@ -28,11 +28,11 @@ Below is the syntax
 
 \[X]checked task
 
-\:+1: emojis
+\ :+1: emojis
 
 \@mention
 
 \escaping
 
-`code`
+\`code`
 
