@@ -1,8 +1,10 @@
 
 
 \#Writing technical documentation are important#
-\Markdown is often used for writing READMEs
-\Even though different flavors of markdown is available, mostly used is GitHub flavor
+
+Markdown is often used for writing READMEs
+
+Even though different flavors of markdown is available, mostly used is GitHub flavor
 
 \#h1#
 \##h2##
