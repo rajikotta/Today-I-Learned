@@ -7,18 +7,6 @@
 
 
 
-   If the test rely on resources, need to enable *includeAndroidResources* in app gradle file
-
-  ```android {
-    // ...
-
-    testOptions {
-        unitTests {
-            includeAndroidResources = true
-       }
-    }
-  }```
-
 
   - Junit : For basic testing. 
 
@@ -86,10 +74,21 @@
 
 
 
+   If the test rely on resources, need to enable *includeAndroidResources* in app gradle file
 
 
 
-    ```ext {
+```android {
+    // ...
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+       }
+    }
+  }
+
+    ext {
 
     androidXTestCoreVersion = '1.2.0'
 
