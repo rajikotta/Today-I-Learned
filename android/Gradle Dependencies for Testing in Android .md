@@ -110,7 +110,7 @@
 
     robolectricVersion = '4.3.1'
    
-    }```
+    }
 
 
 
