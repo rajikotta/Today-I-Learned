@@ -9,15 +9,15 @@
 
    If the test rely on resources, need to enable *includeAndroidResources* in app gradle file
 
-  `android {`
-   ` // ...`
+  ```android {
+    // ...
 
-    `testOptions {`
-       ` unitTests {`
-           ` includeAndroidResources = true`
-       ` }`
-    `}`
-  `}`
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+       }
+    }
+  }```
 
 
   - Junit : For basic testing. 
@@ -89,20 +89,29 @@
 
 
 
-    `ext {`
+    ```ext {
 
-    `androidXTestCoreVersion = '1.2.0'`
-    `androidXTestExtKotlinRunnerVersion = '1.1.1'`
-    `archTestingVersion = '2.0.0'`
-    `coroutinesVersion = '1.2.1'`
-    `dexMakerVersion = '2.12.1'`
-    `espressoVersion = '3.2.0-beta01'`
-    `hamcrestVersion = '1.3'`
-    `junitVersion = '4.12'`
-    `mockitoVersion = '2.8.9'`
-    `robolectricVersion = '4.3.1'`
+    androidXTestCoreVersion = '1.2.0'
+
+    androidXTestExtKotlinRunnerVersion = '1.1.1'
+
+    archTestingVersion = '2.0.0'
+
+    coroutinesVersion = '1.2.1'
+
+    dexMakerVersion = '2.12.1'
+
+    espressoVersion = '3.2.0-beta01'
+
+    hamcrestVersion = '1.3'
+
+    junitVersion = '4.12'
+
+    mockitoVersion = '2.8.9'
+
+    robolectricVersion = '4.3.1'
    
-     `}`
+    }```
 
 
 
